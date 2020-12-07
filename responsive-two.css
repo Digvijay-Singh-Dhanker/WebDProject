@@ -1,0 +1,41 @@
+@media screen and (max-width: 1400px){
+.band-description img{
+    height: 300px;
+    width: 300px;
+   }
+   .band-description p{
+    color: #ddd;
+    font-size: 10px;
+    padding-top: 15%;
+    padding-right: 5%;
+}
+.playlist{
+    display: none;
+}
+main{
+    width: 100%;
+}
+}
+@media screen and (max-width: 700px) {
+    
+    .band-description{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .band-description img{
+        height: 200px;
+        width: 200px;
+       }
+    
+    .band-name{
+        display: block;
+        padding-left: 5%;
+        padding-top: 10%;
+    }
+    .band-name h4{
+        font-size: small;
+        margin-top: -15%;
+    }
+}

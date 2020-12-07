@@ -1,0 +1,150 @@
+@media screen and (max-width: 1400px){
+    #first-part img{
+        width: 200px;
+        height: 150px;
+    }
+    .l-r-title h3{
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1px;
+    }
+    .l-r-title p{
+        
+        font-size: 8px;
+        
+    }
+    .l-r-date{
+        font-size: 5px;
+    }
+    .l-r-time{
+        font-size: small;
+        
+    }
+    .artist img{
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+        margin-left: 1%;
+    
+        
+    }
+    .artist p{
+        font-size: smaller;
+    }
+    #station-image img{
+    
+        height: 125px;
+        width: 125px;
+        padding: 10%;
+        
+    }
+    #station{
+        width: 120%;
+    }
+    .round-station-images img{
+        /* position: relative; */
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        
+    }
+    .fifth-part-pic img{
+        width: 250px;
+        height: 150px;
+        padding: 1%;
+   
+   }
+   .playlist{
+       display: none;
+   }
+   
+/* Single playlist screen */
+   
+}
+@media screen and (max-width: 900px){
+    body{
+        overflow-x: hidden;
+    }
+    #first-part img{
+        width: 150px;
+        height: 100px;
+    }
+    #station{
+        width: 200%;
+    }
+    #station-image img{
+    
+       
+        padding: 5%;
+        
+    }
+    .round-station-images img{
+        /* position: relative; */
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        
+    }
+    #fifth-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;  
+    }
+    .fifth-part-pic p{
+        position: relative;
+        left: 15%;
+        bottom: 20%;
+        color: whitesmoke;
+        font-weight: bolder;
+        font-size: large;
+    }
+    .fifth-part-pic img{
+        
+        padding: 2.5%;
+   
+   }
+   input[type="text"]{
+
+    
+    left: 25%;
+    bottom: 20%;
+   
+}
+.navbar img{
+    
+    
+    left: 40%;
+    
+}
+/* Single playlist page */
+
+} 
+@media screen and (max-width: 700px) {
+	#station-image img{
+    
+       
+        padding: -2%;
+        
+    }
+    .artist img{
+        display: block;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        margin-left: 1%;
+    
+        
+    }
+    .artist p{
+        font-size: x-small;
+    }
+    .navbar img{
+    
+    
+        left: 30%;
+        
+    }
+    /* Single Playlist Screen */
+    
+}
